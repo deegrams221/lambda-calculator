@@ -12,9 +12,9 @@ code {
 }
 
 .container {
-  background: #bb1333;
-  height: 530px;
-  width: 350px;
+  background: #bb1335;
+  height: 550px;
+  width: 360px;
   margin: 0 auto;
   border-radius: 10px;
 }
@@ -39,14 +39,24 @@ code {
 }
 
 button {
-  padding: 20px;
+  padding: 18px;
   font-size: 20px;
-  outline: none;
   border-radius: 50%;
+  margin: 0 auto;
+}
+
+.specialButtonContainer {
+  position: relative;
+  right: 10px;
+}
+
+.specialButton {
+  background: #1a61b0;
+  color: #ffffff;
+  margin: 20px 0 10px 30px;
 }
 
 .numberButtonContainer {
-  position: absolute;
   width: 280px;
   left: 450px;
   margin-left: 20px;
@@ -63,27 +73,16 @@ button {
   border-radius: 30px;
 }
 
-.operatorButtonContainer {
-  display: flex;
-  flex-direction: column;
+.operatorButtonContainter {
   position: absolute;
-  left: 612px;
-  bottom: 0px;
+  left: 870px;
+  bottom: 0;
+  top: 165px;
 }
 
 .operatorButton {
+  display: flex;
   background: #3aa6e3;
   color: #ffffff;
   margin-bottom: 10px;
-}
-
-.specialButtonContainer {
-  position: relative;
-  right: 10px;
-}
-
-.specialButton {
-  background: #1a61b0;
-  color: #ffffff;
-  margin: 20px 0 10px 30px;
 }
