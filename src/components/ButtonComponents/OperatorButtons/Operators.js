@@ -11,8 +11,10 @@ const Operators = () => {
   const [operatorState, newOperatorState] = useState(operators);
   return (
     <div className = 'operatorButtonContainter'>
-      {operators.map(operator => {
-        return <OperatorButton operators = {operator} />
+      {operatorState.map(operator => {
+        return (
+          <OperatorButton key = {operator.char} operators = {operator} />
+        );
       })}
     </div>
   );

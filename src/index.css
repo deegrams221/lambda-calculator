@@ -13,7 +13,7 @@ code {
 
 .container {
   background: #bb1333;
-  height: 520px;
+  height: 530px;
   width: 350px;
   margin: 0 auto;
   border-radius: 10px;
@@ -43,7 +43,6 @@ button {
   font-size: 20px;
   outline: none;
   border-radius: 50%;
-  border: none;
 }
 
 .numberButtonContainer {
@@ -60,7 +59,7 @@ button {
 }
 
 .numberButton:nth-child(10) {
-  width: 130px;
+  width: 140px;
   border-radius: 30px;
 }
 
@@ -68,8 +67,8 @@ button {
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 720px;
-  bottom: 180px;
+  left: 612px;
+  bottom: 0px;
 }
 
 .operatorButton {
@@ -80,6 +79,7 @@ button {
 
 .specialButtonContainer {
   position: relative;
+  right: 10px;
 }
 
 .specialButton {

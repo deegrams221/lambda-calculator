@@ -1,9 +1,9 @@
 import React from "react";
 
-const OperatorButton = (props) => {
-  console.log('OperatorButton: ', props);
+const OperatorButton = ({operators: {char, value}}) => {
+  //console.log('OperatorButton: ', props);
   return (
-    <button className = 'operatorButton'>{props.operators}</button>
+    <button className = "operatorButton">{char}</button>
   );
 };
 
