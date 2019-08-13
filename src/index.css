@@ -10,3 +10,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  background: #bb1333;
+  height: 520px;
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 30%;
+  margin: 20px 10px;
+}
+
+.calculatorScreen {
+  background: #3a3939;
+  height: 60px;
+  width: 300px;
+  padding-right: 10px;
+  margin-left: 20px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: right;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+}
+
+button {
+  padding: 20px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 50%;
+  border: none;
+}
+
+.numberButtonContainer {
+  position: absolute;
+  width: 280px;
+  left: 450px;
+  margin-left: 20px;
+}
+
+.numberButton {
+  background: #1a61b0;
+  color: #ffffff;
+  margin: 0 35px 10px 0;
+}
+
+.numberButton:nth-child(10) {
+  width: 130px;
+  border-radius: 30px;
+}
+
+.operatorButtonContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 720px;
+  bottom: 180px;
+}
+
+.operatorButton {
+  background: #3aa6e3;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.specialButtonContainer {
+  position: relative;
+}
+
+.specialButton {
+  background: #1a61b0;
+  color: #ffffff;
+  margin: 20px 0 10px 30px;
+}
