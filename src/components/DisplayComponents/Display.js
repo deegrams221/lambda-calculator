@@ -1,5 +1,9 @@
 import React from "react";
 
-const Display = () => {
-  return <div>{/* Display any props data here */}</div>;
+const Display = ({displayValue}) => {
+  return ( 
+    <input className = "calculatorScreen" value = {displayValue} type = "text" disabled />
+  );
 };
+
+export default Display;

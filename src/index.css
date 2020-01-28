@@ -10,3 +10,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  background: #bb1335;
+  height: 510px;
+  width: 360px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 30%;
+  margin: 20px 10px;
+}
+
+.calculatorScreen {
+  background: #3a3939;
+  height: 60px;
+  width: 300px;
+  padding-right: 10px;
+  margin-left: 20px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: right;
+  border-radius: 30px;
+  border: none;
+}
+
+button {
+  padding: 18px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  border-color: #3a3939;
+}
+
+.specialButtonContainer {
+  position: relative;
+  right: 10px;
+}
+
+.specialButton {
+  background: #1a61b0;
+  color: #ffffff;
+  margin: 20px 0 10px 30px;
+}
+
+.numberButtonContainer {
+  width: 280px;
+  left: 450px;
+  margin-left: 20px;
+}
+
+.numberButton {
+  background: #1a61b0;
+  color: #ffffff;
+  margin: 0 35px 10px 0;
+  padding: 15px 20px;
+}
+
+.numberButton:nth-child(10) {
+  width: 140px;
+  border-radius: 30px;
+}
+
+.operatorButtonContainter {
+  position: absolute;
+  left: 870px;
+  bottom: 0;
+  top: 165px;
+}
+
+.operatorButton {
+  display: flex;
+  background: #3aa6e3;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+}
